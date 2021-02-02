@@ -1,34 +1,41 @@
 body {
     margin: 0px;
-    background-color: #1b5b8c;
-    background-image:
-    linear-gradient(rgba(249, 249, 249, 0.5) 2px, transparent 2px),
-    linear-gradient(90deg, rgba(245, 245, 245, 0.5) 2px, transparent 2px),
-    linear-gradient(rgba(251, 249, 249, 0.32) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(251, 249, 249, 0.32) 1px, transparent 1px);
-    background-size: 100px 100px, 100px 100px, 19px 19px, 19px 19px;
-    background-position: -1px -1px, -1px -1px, -2px -1px, -1px -1px;
+    background-color: rgb(232, 213, 191);
     font-family: 'Old Standard TT', serif;
 }
 
 div {
-    padding-top: 50px;
+    width: 80%;
+    margin: 0px auto;
+    padding: 50px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 h1 {
-    color: #07de12;
+    color: rgb(24, 23, 23);
     margin-bottom: 50px;
     font-size: 50px;
+}
+
+h3 {
+    color: rgb(24, 23, 23);
+    font-size: 23px;
+    width: 80%;
+}
+
+hr {
+    background-color: rgb(151, 139, 139);
+    width: 80%;
+    height: 1px;
 }
 
 .btn {
     padding: 25px 50px;
     margin-bottom: 10px;
     background-color: transparent;
-    border: 2px solid transparent;
+    border: 2px solid rgb(51, 67, 44);
     cursor: pointer;
     outline: none;
     font-style: normal;
@@ -37,12 +44,12 @@ h1 {
     line-height: 23px;
     letter-spacing: -0.346154px;
     border-radius: 15px;
-    color: #07de12;
+    color: rgb(51, 67, 44);
 }
 
 .btn:hover {
-    border: 2px solid #010101;
+    border: 2px solid rgb(51, 67, 44);
     color: rgb(239, 235, 235);
-    background-color: #010101;
+    background-color: rgb(51, 67, 44);
 }
 
